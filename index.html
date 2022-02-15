@@ -5,7 +5,8 @@
     <title>Progate</title>
     <link rel="stylesheet" href="contact.css"> 
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" > -->
-    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all" />
+    <!--<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all" /> -->
+    <script src="https://kit.fontawesome.com/5562031081.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="header">
@@ -16,31 +17,37 @@
           <a>ログイン</a>
         </div>
     </div>
-    <div class = "title">
-        <h1>CONTACT</h1>
-        <p>お問い合わせ</p>
-    </div>
-    <div class = "input_box">
-        <div class ="c">
-            <div class="left">お名前<span>*</span></div>
-            <div class="right">
-                <input type="text" style="border:none" name="name" size="20" value placeholder=" &#xf007; 入力例：早稲田うん子" />
-            </div>
-        </div> 
-        <div class ="c">
-            <div class="left">メールアドレス<span>*</span></div>
-            <div class="right"><input type="text" style="border:none" name="mail_address" size="20" value placeholder="入力例：wasedaunko@gmail.com" ></div>
-        </div>    
-        <div class ="c">
-            <div class="left">お問い合わせ内容<span>*</span></div>
-            <div class="right"><textarea type="text" style="border:none" name="message" size="30" value placeholder="お問い合わせ内容の詳細をこちらの欄に記載ください" ></textarea></div>
-        </div> 
+    <div class="content_wrap">
+        <div class = "title">
+            <h1>CONTACT</h1>
+            <p>お問い合わせ</p>
+        </div>
+        <div class = "input_box">
+            <div class ="c">
+                <div class="left">お名前<span>*</span></div>
+                
+                <div class="right">
+                    <input  class ="use_icon" type="text" style="border:none" name="name" size="20" value placeholder=" &#xf007; 入力例：早稲田うん子" />
+                </div>
+            </div> 
+            <div class ="c">
+                <div class="left">メールアドレス<span>*</span></div>
+                <div class="right"><input class="use_icon" type="text" style="border:none" name="mail_address" size="20" value placeholder=" &#xf0e0; 入力例：wasedaunko@gmail.com" ></div>
+            </div>    
+            <div class ="c">
+                <div class="left">お問い合わせ内容<span>*</span></div>
+                <div class="right"><textarea type="text" style="border:none" name="message" size="30" value placeholder="お問い合わせ内容の詳細をこちらの欄に記載ください" ></textarea></div>
+            </div> 
+            <div class="send"><input  class="send_box use_icon" value="送信   &#xf105;" /></div>
+        </div>
     </div>
     <div class="footer">
-        <div><h1 class="footer-logo">airoWaseda</h1></div> <!--いずれはロゴ画像を入れたい-->
-        <div class="footer-list">
-          <li>HOME</li>
-          <li>CONTACT</li>
+        <div class="footer_color">
+            <div><h1 class="footer-logo">airoWaseda</h1></div> <!--いずれはロゴ画像を入れたい-->
+            <div class="footer-list">
+                <p>HOME</p>
+                <p>CONTACT</p>
+            </div>
         </div>
     </div>
     </body>
